@@ -8,7 +8,7 @@ imagesLoaded( container, function() {
   // options
   
   "isFitWidth": true,
-  itemSelector: '.item'
+  itemSelector: '.block'
 } );
 });
 

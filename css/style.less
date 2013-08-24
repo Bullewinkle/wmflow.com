@@ -4,13 +4,29 @@
 	box-shadow: @params;
 }
 
+.cf {
+	*zoom: 1;
+	&:before,
+	&:after {
+		content: " "; 
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+
 body#page {
 	font-family: Arial;
 	font-size: 11px;
 	line-height: 15px;
+
 	header#main_header {
 		.header-top {
 			width: 100%;
+			.cf;
 			#logo {
 				width: 262px;
 				float: left;
@@ -160,6 +176,7 @@ body#page {
 			background: #000;
 			padding: 0 20px 0 0;
 			ul {
+				.cf;
 				.item {
 					float: left;
 					color:#fff;
@@ -213,12 +230,51 @@ body#page {
 	#main_content {
 		#container {
 			padding: 20px 20px 0 20px;
-			.item {
+			.block {
 				padding: 0 20px 20px 0;
-				display: inline-block;
 				float: left;
-				&:nth-child(3n) img {
-					
+				line-height: 0;
+
+				.photo-preview {}
+				.info {
+					background: #e6e6e6;
+					padding: 18px 15px 15px;
+					.cf;
+
+					.block-title {
+						text-transform: uppercase;
+						text-decoration: underline;
+						padding-bottom: 20px;
+						color: #868686;
+					}
+					.like-icon {
+						display: block;
+						float: left;
+						background: url('sprite.png') no-repeat -204px -91px;
+						width: 30px;
+						height: 30px;
+					}
+					.like-count {
+						display: block;
+						float: left;
+						font-weight: bold;
+						font-size: 17px;
+						color: #ff3333;
+						padding: 16px 0 0 10px;
+					}
+					.like-add {
+						border: none;
+						float: right;
+						background: url('sprite.png') no-repeat 0 0;
+						width: 30px;
+						height: 30px;
+						&:hover {
+							background-position: 0 -40px;
+						}
+						&:active {
+							background-position: 0 -100px;
+						}
+					}
 				}
 			}
 		}
