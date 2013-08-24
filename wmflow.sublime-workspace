@@ -1,0 +1,824 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"rea",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ajax",
+				"ajaxSettings"
+			],
+			[
+				"c",
+				"cookie"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"to",
+				"totalName"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"char",
+				"charset"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bordr",
+				"border-right"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"r",
+				"ready	$(document).ready"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"MA",
+				"margin"
+			],
+			[
+				"brd",
+				"border-radius"
+			],
+			[
+				"po",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"ind",
+				"indexOfLastSlash"
+			],
+			[
+				"slide",
+				"slideDown"
+			],
+			[
+				"menu",
+				"menuText"
+			],
+			[
+				"plugi",
+				"plugin	plugin (method basic)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bg",
+				"bgsz-a	background-size: auto;"
+			],
+			[
+				"bx",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"s",
+				"submit"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"tra",
+				"tractor-nomber"
+			],
+			[
+				"input",
+				"input"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"fiels",
+				"fields_left"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"cl",
+				"cl-l	clear: left;"
+			],
+			[
+				"ov",
+				"ovx	overflow-x: ${1:hidden};"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"m",
+				"meta	Tag"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"les",
+				"lession"
+			],
+			[
+				"lvl",
+				"level"
+			],
+			[
+				"lst",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"html	",
+				"Set Syntax: HTML5"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"ssp",
+				"Set Syntax: PHP"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/style.less",
+		"/Users/Bullwinkle/Web_progects/wmflow.com/index.html",
+		"/Users/Bullwinkle/Web_progects/wmflow.com/css/style.less",
+		"/Users/Bullwinkle/Google Диск/internettraffic/доступы.txt",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/footer.php",
+		"/Users/Bullwinkle/Dropbox/coworking/wmflow.com/Masonry.js",
+		"/Users/Bullwinkle/Dropbox/coworking/wmflow.com/bootstrap.min.css",
+		"/Users/Bullwinkle/Dropbox/coworking/wmflow.com/js/libs.js",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/footer.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/ready.js",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/header.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/style.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/plugins/contact-form-7/admin/edit-contact-form.php",
+		"/Users/Bullwinkle/Web_progects/wmflow.com/css/bootstrap.css",
+		"/Users/Bullwinkle/Dropbox/coworking/wmflow.com/index.html",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/js/ready.js",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/main.tpl",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/index.tpl",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/style 2.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/page.tpl",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/index.html",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/plugins/contact-form-7/includes/css/styles.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/style.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/_comments.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/wp-login.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/wp-signup.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/fz3temp-1/wp-config.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/style.less",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/plugins/contact-form-7/wp-contact-form-7.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/plugins/contact-form-7/includes/shortcodes.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/page.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/sidebar.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/index.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/comments.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-config.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik/wp-content/themes/twentytwelve/functions.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-content/themes/twentytwelve/header.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-content/themes/twentytwelve/style.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-config.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-content/themes/twentytwelve/style.less",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-config-sample.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/toys_market/design/default_1/css/stylesheet.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-content/themes/twentytwelve/editor-style.css",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/PIE/PIE.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/wp-content/themes/twentytwelve/functions.php",
+		"/Users/Bullwinkle/Web_progects/prazdnik_s_vami/index.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/portfolio/index.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/index.html",
+		"/Users/Bullwinkle/Web_progects/www/index.html",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/portfolio/js/ready.js",
+		"/Users/Bullwinkle/Desktop/Новая папка/formgen.js",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/portfolio/less/main.less",
+		"/Users/Bullwinkle/Google Диск/internettraffic docs/simpla_test/.htaccess",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/static/app/less/variables.less",
+		"/Users/Bullwinkle/Dropbox/Sites/new-layer.ru/portfolio/less/main.less",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/static/app/less/strelka.less",
+		"/Users/Bullwinkle/Dropbox/Sites/new-layer.ru/portfolio/index.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner8.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner7.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner6.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner5.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner4.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner3.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/index.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/inner2.html",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/static/app/js/less.min.js",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/less/normalize.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/less/main.less",
+		"/Applications/MAMP/htdocs/test.html",
+		"/Applications/MAMP/htdocs/static/app/less/strelka.less",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/css/main.css",
+		"/Users/Bullwinkle/Dropbox/coworking/NCCA/www/static/vendor/less.js",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/vendor/bootstrap/css/bootstrap.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/fontface/fontface.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/js/app.js",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/WWW/css/main.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner7.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/strelka.less",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/WWW/index.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner8.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/WWW/js/libs.js",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner6.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner5.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner4.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner3.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/inner2.html",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/mixins.less",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/fontface/PRG65/fonts.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/fontface/PRG45/fonts.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/www/static/app/less/fontface/geometric_sans/fonts.css",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/WWW/dist/js/bootstrap.js",
+		"/Users/Bullwinkle/Dropbox/Sites/NCCA/WWW/dist/css/bootstrap.css",
+		"/Users/Bullwinkle/Dropbox/Sites/InternetTraffic/toys_market/index.html",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/157f9cb2-4372-43b1-92da-defe0ab4fb23/www/new-layer.ru/index.php",
+		"/Users/Bullwinkle/Desktop/index.js",
+		"/Users/Bullwinkle/Dropbox/Sites/InternetTraffic/toys_market/style.css",
+		"/Users/Bullwinkle/Dropbox/Sites/learn.js",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/f43a6d0e-0bb2-4bc3-babb-942e487d2093/www/europesailcharter.ru/templates/yachts/css/template.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/webformgenerator.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/js/main.js",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/index.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/process_form.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/css/style.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/css/form_style.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/formgen/webformgenerator.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/formgen/css/uniform.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/formgen/process_form.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/a13e15e9-590e-46c4-8e6f-1cddb9f22dc4/httpdocs/greenlight/green/formgen/css/form_style.css",
+		"/Users/Bullwinkle/Desktop/form.txt",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/157f9cb2-4372-43b1-92da-defe0ab4fb23/www/new-layer.ru/formgen/webformgenerator.php",
+		"/Users/Bullwinkle/Desktop/simple_mail.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/157f9cb2-4372-43b1-92da-defe0ab4fb23/www/new-layer.ru/formgen/process_form.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/d7636610-be41-4c0a-91eb-c878e0b374c9/www/new-layer.ru/formgen/process_form.php",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/157f9cb2-4372-43b1-92da-defe0ab4fb23/www/new-layer.ru/formgen/v2/index.html",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/157f9cb2-4372-43b1-92da-defe0ab4fb23/www/new-layer.ru/formgen/v2/simple_mail.php",
+		"/Users/Bullwinkle/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/file.ext",
+		"/Users/Bullwinkle/Desktop/1375309778/process_form.php",
+		"/Users/Bullwinkle/Desktop/formgentest.html",
+		"/Users/Bullwinkle/Desktop/formgen.css",
+		"/Users/Bullwinkle/Desktop/formgen.js",
+		"/Users/Bullwinkle/Desktop/formgen.php",
+		"/Users/Bullwinkle/Desktop/Новая папка/formgen.php",
+		"/Users/Bullwinkle/Desktop/1375309778/webformgenerator.php",
+		"/Users/Bullwinkle/Dropbox/Sites/доступы",
+		"/Users/Bullwinkle/Dropbox/Sites/InternetTraffic/toys_market/Шрифты/font.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/f43a6d0e-0bb2-4bc3-babb-942e487d2093/www/europesailcharter.ru/media/mod_vt_nice_slideshow/config/87/style.css",
+		"/private/var/folders/1f/0yqpybfd1md36jyrnn3yhjmr0000gn/T/f43a6d0e-0bb2-4bc3-babb-942e487d2093/www/europesailcharter.ru/templates/yachts/css/style.css",
+		"/Users/Bullwinkle/Dropbox/Sites/Urban Favorite/Site/js/ready.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			".row",
+			"row",
+			"div",
+			"author_name",
+			"author",
+			"author\nauthor",
+			"author",
+			"<img src=\"files/categories/",
+			"</div></a>",
+			".site-content",
+			".site ",
+			".site",
+			".site ",
+			"{\n",
+			".site ",
+			"{\n",
+			"}\n	.site ",
+			"widget",
+			"wpcf7",
+			"@transition",
+			"'do_",
+			"callback",
+			"social_links",
+			"important",
+			"(",
+			";",
+			",",
+			"box-shadow",
+			"15px",
+			"rgba(0, 0, 0, 0.3)",
+			"rgba(255,255,255,1)",
+			"rgba(255,255,255,0.0)",
+			"/*",
+			"rgba(0,0,0,0.0)",
+			"widget_text",
+			"rgba(0,0,0,1)",
+			"10%",
+			"rgba(0,0,0,1) 10%",
+			"top,",
+			"top",
+			"(top,",
+			".site-content",
+			"wrapper",
+			"site-content",
+			"#000000",
+			"#ffffff",
+			"&.",
+			"contacts",
+			"top:",
+			"menu",
+			"2c688d",
+			"3a81a6",
+			"theme_location",
+			"wp_nav_menu",
+			"Get our wp_nav_menu",
+			"WPLANG",
+			"FS_METHOD",
+			"   ",
+			"/",
+			"font-face",
+			"font",
+			"/*",
+			"efe27c",
+			";",
+			"/*",
+			"body",
+			"Main",
+			"padding",
+			"body",
+			"css/",
+			"/static/",
+			"/static",
+			"/static/",
+			"strelka",
+			"<h2>Registration</h2>",
+			"col-lg",
+			"<h2>Registration</h2>",
+			"col-lg",
+			"social",
+			"margin-right: 20px;",
+			"float: right;\nmargin-right: 20px;",
+			"margin-left: 10px;",
+			"header",
+			"important",
+			"social",
+			"col-sm-6",
+			"container",
+			"col-sm-",
+			".navbar",
+			"social",
+			"hidden",
+			".caret",
+			"</div>\n					<!-- Indicators -->\n					<ol class=\"carousel-indicators\">\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n					</ol>\n				</div>",
+			"container",
+			"<div class=\"col-12\">",
+			"container",
+			">\n",
+			"container",
+			"Competition news",
+			"class=\"row\"",
+			" body",
+			"body",
+			"container",
+			";",
+			"dropdown-toggle",
+			"slider",
+			"container",
+			"row",
+			"dropdown-toggle",
+			"<a class=\"download\" href=\"#\">click to download</a>",
+			"24px",
+			"img-responsive",
+			"col-sm-6",
+			"3",
+			"img-responsive",
+			"h3",
+			";",
+			"registration",
+			"registrationpro",
+			" ",
+			"Ada",
+			"Competition",
+			"click to download",
+			"new_item",
+			"<div class=\"col-sm-4\">",
+			"Competition news",
+			"",
+			".h"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"0",
+			"</div>\n					<!-- Indicators -->\n					<ol class=\"carousel-indicators\">\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n						<li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n					</ol>\n			</div>",
+			";}",
+			"<div class=\"phone\">\n					<span>тел.: </span>8(812) 985-08-46 <br>\n					<span>тел. / факс: </span>8(812) 517-78-34\n				</div>",
+			"div.phone",
+			"</body>",
+			"<div id=\"lmenu\"></div>",
+			"span",
+			"float: left;",
+			"float:left;",
+			"15px"
+		],
+		"reverse": true,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 299.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 701.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Bullwinkle/Dropbox/Sites/InternetTraffic/now_at_work/untitled.sublime-project"
+			]
+		],
+		"width": 1280.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true
+}

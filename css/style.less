@@ -1,0 +1,241 @@
+.box-shadow(@params) {
+	-webkit-box-shadow: @params;
+	-moz-box-shadow: @params;
+	box-shadow: @params;
+}
+
+body#page {
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 15px;
+	header#main_header {
+		.header-top {
+			width: 100%;
+			#logo {
+				width: 262px;
+				float: left;
+				vertical-align: middle;
+				position: relative;
+				padding: 10px 0 10px 20px;
+				z-index: 10;
+				background: #fff;
+				.box-shadow(
+					0px 0 4px 2px rgba(0, 0, 0, 0.3),
+					0px 0 30px 2px rgba(0, 0, 0, 0.3);
+					);
+				a.logo {
+					display: block;
+					float: left;
+					background: #e6e6e6;
+					width: 200px;
+					height: 30px;
+					top: -5px;
+				}
+
+				.show {
+					float: left;
+					margin: 4px 0 0 20px;
+					border: none;
+					background: none;
+					width: 24px;
+					height: 20px;
+					position: relative;
+					cursor: pointer;
+
+					.decor {
+						width: 12px;
+						height: 2px;
+						position: relative;
+						background: #333333;
+						left: 0;
+						top: 0;
+
+						&:before,
+						&:after {
+							content:'';
+							position: absolute;
+							width: 12px;
+							height: 2px;
+							background: #333333;
+							left: 0;
+						}
+						&:before {
+							top: -5px;
+						}
+						&:after {
+							bottom: -5px;
+						}
+					}
+				}
+			}
+			.city {
+				width: 270px;
+				float: left;
+				position: relative;
+				padding: 10px 0 10px 20px;
+				z-index: 5
+				background: #fff;
+				.box-shadow(
+					0px 0 4px 2px rgba(0, 0, 0, 0.3),
+					0px 0 30px 2px rgba(0, 0, 0, 0.3);
+					);
+
+				.city-select {
+					height: 26px;
+					width: 225px;
+					color: #aaa;
+					border-radius: 100px;
+					border: 2px solid;
+					line-height: 26px;
+					text-transform: uppercase;
+					padding: 0 0 0 20px;
+					background: #fff;
+				}
+			}	
+			#register {
+				float: left;
+				display: none;
+			}
+			.user {
+				padding: 10px 0 0 20px;
+				float: left;
+				position: relative;
+
+				.user-photo {}
+				.user-name {
+					text-transform: uppercase;
+					text-decoration: underline;
+					font-weight: bold;
+					color: #555;
+					position: absolute;
+					top: 10px;
+					line-height: 15px;
+					width: 110px;
+					display: block;
+					padding: 0 0 0 40px;
+				}
+			}
+			#user-control_panel {
+				float: right;
+				padding-top: 15px;
+				text-align: right;
+				padding-right: 20px;
+				.item {
+					float: left;
+					a {
+						display: block;
+						margin-left: 20px;
+						text-decoration: none;
+						font-weight: bold;
+					}
+
+					.icon {
+						display: block;
+						float: left;
+						width: 16px;
+						height: 20px;
+						background: url('sprite.png') no-repeat;
+					}
+					.count {
+						margin-left: 5px;
+					}
+					&.messages .icon {
+						background-position: -66px -100px;
+					}
+					&.comments .icon {
+						background-position: -101px -100px;
+					}
+					&.badges .icon {
+						background-position: -136px -100px;
+					}
+					&.settings .icon {
+						background-position: -171px -100px;
+					}
+				}
+			}
+		}
+		nav.header-main_menu {
+			position: relative;
+			z-index: 20;
+			background: #000;
+			padding: 0 20px 0 0;
+			ul {
+				.item {
+					float: left;
+					color:#fff;
+					&.main {
+						position: relative;
+						background: #f33;
+						a {
+							float: left;
+							&.main-page {
+								padding: 10px 10px 10px 20px;
+								background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAOElEQVQIW2P8Hxj4nwEGHj2CMxnhEkiCDHJyDBAJNEGQNsb/xsYIo4AqYQAhgSQIMgEigSYI0gUA/dIZE9fY2YwAAAAASUVORK5CYII=) repeat;
+								.box-shadow(
+									0px 10px 0 0 #ffffff,
+									0px -10px 0 0 #ffffff,
+									3px 0px 5px -2px rgba(0, 0, 0, 0.3),
+									10px 0px 10px -4px rgba(0, 0, 0, 0.1);
+									);	
+							}
+						}
+						.dropdown-filters {
+							float: left;
+							.filter {
+								float: left;
+								a {
+									font-size: 8px;
+									font-weight: bold;
+									letter-spacing: 1px;
+								}
+							}
+						}
+					}
+					a {
+						display: block;
+						color: #fff;
+						text-transform: uppercase;
+						text-decoration: none;
+						padding: 10px;
+					}
+
+					&.search {
+						float: right;
+						background: url('http://wmflow/css/sprite.png') no-repeat -278px -69px;
+						width: 16px;
+						height: 16px;
+						margin-top: 8px;
+					}
+				}
+			}
+		}
+	}
+	#main_content {
+		#container {
+			padding: 20px 20px 0 20px;
+			.item {
+				padding: 0 20px 20px 0;
+				display: inline-block;
+				float: left;
+				&:nth-child(3n) img {
+					
+				}
+			}
+		}
+	}
+
+	
+
+	footer#main_footer {
+		
+	}
+}
+
+@media (min-width: 320px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1366px) {}
+@media (min-width: 1920px) {}
+
+
+
