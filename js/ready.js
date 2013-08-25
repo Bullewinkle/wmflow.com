@@ -1,7 +1,13 @@
+
 $(document).ready(function() {
 
-	var container = document.querySelector('#container');
-	var msnry;
+var userName = $('.user .user-name .name');
+userName.html(userName.html() + '&nbsp;');
+
+// -------------------------------- MASONRY
+
+var container = document.querySelector('#container');
+var msnry;
 // initialize Masonry after all images have loaded
 imagesLoaded( container, function() {
 	msnry = new Masonry( container, {
@@ -15,6 +21,8 @@ imagesLoaded( container, function() {
 $(".chosen-select-no-single").chosen();
 $(".chosen-select-no-single").chosen({disable_search_threshold: 10});
 
+// ---------------------------------- LOGO
+
 var logo = $('#logo')
 var show = $('#logo .show');
 show.on('click', function (){
@@ -24,6 +32,8 @@ show.on('click', function (){
 		$(this).parent().removeClass('visible');
 	}
 });
+
+// -------------------------------TOP-MENU FILTERS
 
 var filter = $('#dropdown-filters .filter-item');
 filter.on('click', function (){
@@ -35,15 +45,22 @@ filter.on('click', function (){
 	}
 });
 
+// ------------------------------- ON SCROLL
+
 var nav = $('.header-main_menu');
+var userInfo = $('.user');
+var headerTop = $('#main_header .header-top');
 
 $(window).scroll(function () {
 	if ( $(this).scrollTop() > 50) {
 		nav.addClass("fixed");
+		userInfo.appendTo(nav);
 	} else {
 		nav.removeClass("fixed");
+		userInfo.appendTo(headerTop);
 	}
 });
+// -------------------------------- CITY SELECT
 
 var select = $('.city-select');
 select.on('click',function(){
