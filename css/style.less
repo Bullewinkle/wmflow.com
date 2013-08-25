@@ -1,3 +1,11 @@
+@red: #f33;
+@logo-width: 262px;
+
+.hover {
+	&:hover {
+		color: @red;
+	}
+}
 .box-shadow(@params) {
 	-webkit-box-shadow: @params;
 	-moz-box-shadow: @params;
@@ -17,9 +25,12 @@
 	}
 }
 
+// a:hover {
+// 	color: @red;
+// }
 
 body#page {
-	font-family: Arial;
+	font-family: arial;
 	font-size: 11px;
 	line-height: 15px;
 
@@ -28,35 +39,105 @@ body#page {
 			width: 100%;
 			.cf;
 			#logo {
-				width: 262px;
+				width: @logo-width;
 				float: left;
 				vertical-align: middle;
-				position: relative;
-				padding: 10px 0 10px 20px;
+				position: absolute;
+				padding: 55px 0 10px 20px;
 				z-index: 10;
 				background: #fff;
+				
+				&.visible {
+					z-index: 200;
+
+					.show {
+						.decor {
+							background: @red;
+
+							&:before,
+							&:after {
+								background: @red;
+							}
+						}
+					}
+				}
 				.box-shadow(
 					0px 0 4px 2px rgba(0, 0, 0, 0.3),
 					0px 0 30px 2px rgba(0, 0, 0, 0.3);
 					);
 				a.logo {
+					position: absolute;
 					display: block;
 					float: left;
-					background: #e6e6e6;
+					background: url('sprite.png') no-repeat 0 -161px;
 					width: 200px;
 					height: 30px;
-					top: -5px;
+					top: 10px;
+				}
+				a.info_link {
+					display: block;
+					padding-bottom: 2px;
+					color: #999;
+					text-transform: uppercase;
+					.hover;
+				}
+				.social_link-panel {
+					padding-top: 18px;
+					.social_link {
+						display: block;
+						width: 30px;
+						height: 30px;
+						background: url('sprite.png') no-repeat;
+						margin-right: 5px;
+						float: left;
+						&.vk {
+							background-position: -58px -2px;
+							&:hover {
+								background-position: -58px -42px;
+							}
+						}
+						&.fb {
+							background-position: -93px -2px;
+							&:hover {
+								background-position: -93px -42px;
+							}
+						}
+						&.ok {
+							background-position: -128px -2px;
+							&:hover {
+								background-position: -128px -42px;
+							}
+						}
+						&.inst {
+							background-position: -163px -2px;
+							&:hover {
+								background-position: -163px -42px;
+							}
+						}
+						&.tw {
+							background-position: -198px -2px;
+							&:hover {
+								background-position: -198px -42px;
+							}
+						}
+						&.pint {
+							background-position: -233px -2px;
+							&:hover {
+								background-position: -233px -42px;
+							}
+						}
+					}
 				}
 
 				.show {
-					float: left;
-					margin: 4px 0 0 20px;
+					margin: 0px 0 0 220px;
 					border: none;
 					background: none;
 					width: 24px;
 					height: 20px;
-					position: relative;
+					position: absolute;
 					cursor: pointer;
+					top: 15px;
 
 					.decor {
 						width: 12px;
@@ -86,10 +167,10 @@ body#page {
 			}
 			.city {
 				width: 270px;
+				height: 30px;
 				float: left;
 				position: relative;
-				padding: 10px 0 10px 20px;
-				z-index: 5
+				padding: 10px 0 10px @logo-width+40;
 				background: #fff;
 				.box-shadow(
 					0px 0 4px 2px rgba(0, 0, 0, 0.3),
@@ -97,15 +178,19 @@ body#page {
 					);
 
 				.city-select {
-					height: 26px;
-					width: 225px;
-					color: #aaa;
-					border-radius: 100px;
-					border: 2px solid;
-					line-height: 26px;
-					text-transform: uppercase;
-					padding: 0 0 0 20px;
+					position: absolute;
+					z-index: 510;
 					background: #fff;
+					width: 235px;
+					color: #aaa;
+					border-radius: 16px;
+					border: 2px solid;
+					line-height: 22px;
+					text-transform: uppercase;
+					padding: 0 0 0 10px;
+					&.opened {
+						border: 2px solid #f33;
+					}
 				}
 			}	
 			#register {
@@ -129,6 +214,7 @@ body#page {
 					width: 110px;
 					display: block;
 					padding: 0 0 0 40px;
+					.hover;
 				}
 			}
 			#user-control_panel {
@@ -144,6 +230,33 @@ body#page {
 						text-decoration: none;
 						font-weight: bold;
 						color: #333;
+						.hover;
+						&.messages .icon {
+							background-position: -66px -100px;
+						}
+						&.comments .icon {
+							background-position: -101px -100px;
+						}
+						&.badges .icon {
+							background-position: -136px -100px;
+						}
+						&.settings .icon {
+							background-position: -171px -100px;
+						}
+						&:hover {
+							&.messages .icon {
+								background-position: -66px -120px;
+							}
+							&.comments .icon {
+								background-position: -101px -120px;
+							}
+							&.badges .icon {
+								background-position: -136px -120px;
+							}
+							&.settings .icon {
+								background-position: -171px -120px;
+							}
+						}
 					}
 
 					.icon {
@@ -156,26 +269,15 @@ body#page {
 					.count {
 						margin-left: 5px;
 					}
-					&.messages .icon {
-						background-position: -66px -100px;
-					}
-					&.comments .icon {
-						background-position: -101px -100px;
-					}
-					&.badges .icon {
-						background-position: -136px -100px;
-					}
-					&.settings .icon {
-						background-position: -171px -100px;
-					}
 				}
 			}
 		}
 		nav.header-main_menu {
-			position: relative;
-			z-index: 20;
+			position: absolute;
+			z-index: 100;
 			background: #000;
 			padding: 0 20px 0 0;
+			width: 100%;
 			ul {
 				.cf;
 				.item {
@@ -183,28 +285,40 @@ body#page {
 					color:#fff;
 					&.main {
 						position: relative;
-						background: #f33;
+						background: @red;
+						margin-right: 10px;
 						a {
 							float: left;
+							padding: 10px;
 							&.main-page {
-								padding: 10px 10px 10px 20px;
-								background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAOElEQVQIW2P8Hxj4nwEGHj2CMxnhEkiCDHJyDBAJNEGQNsb/xsYIo4AqYQAhgSQIMgEigSYI0gUA/dIZE9fY2YwAAAAASUVORK5CYII=) repeat;
+								padding: 7px 10px 7px 20px;
+								background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAOElEQVQIW2P8b2z8nwEG5OTgTEa4BJIgw6NHDBAJNEGQNsb/gYEIo4AqYQAhgSQIMgEigSYI0gUAVj4ZE2BcboAAAAAASUVORK5CYII=);
 								.box-shadow(
-									0px 10px 0 0 #ffffff,
-									0px -10px 0 0 #ffffff,
 									3px 0px 5px -2px rgba(0, 0, 0, 0.3),
 									10px 0px 10px -4px rgba(0, 0, 0, 0.1);
 									);	
 							}
 						}
-						.dropdown-filters {
+						#dropdown-filters {
 							float: left;
+							padding: 0 10px;
 							.filter {
 								float: left;
-								a {
+								padding: 5px 0;
+								a.filter-item {
+									padding: 2px 10px;
 									font-size: 8px;
 									font-weight: bold;
 									letter-spacing: 1px;
+									border-radius: 50px;
+									&:hover {
+										background: rgba(255,255,255,0.5);
+										color: #fff;
+									}
+									&.active {
+										background: #fff;
+										color:@red;
+									}
 								}
 							}
 						}
@@ -214,23 +328,39 @@ body#page {
 						color: #fff;
 						text-transform: uppercase;
 						text-decoration: none;
-						padding: 10px;
+						padding: 7px;
+						.hover;
 					}
 
 					&.search {
 						float: right;
-						background: url('http://wmflow/css/sprite.png') no-repeat -278px -69px;
+						background: url('sprite.png') no-repeat -278px -69px;
 						width: 16px;
 						height: 16px;
-						margin-top: 8px;
+						margin: 6px 20px 0 0;
+						&:hover {
+							background-position: -299px -69px;
+						}
 					}
 				}
 			}
+			&.fixed {
+				position: fixed;
+				top: 0;
+				z-index: 500;
+			}
 		}
 	}
+
 	#main_content {
+		padding: 30px 0 0;
+		background: #fff;
+		position: relative;
+		z-index: 10;
 		#container {
 			padding: 20px 20px 0 20px;
+			background: #fff;
+			z-index: 110;
 			.block {
 				padding: 0 20px 20px 0;
 				float: left;
@@ -261,7 +391,7 @@ body#page {
 						font-weight: bold;
 						font-size: 17px;
 						color: #ff3333;
-						padding: 16px 0 0 10px;
+						padding: 16px 0 10px 10px;
 					}
 					.like-add {
 						border: none;
@@ -281,10 +411,7 @@ body#page {
 		}
 	}
 
-	
-
 	footer#main_footer {
-		
 	}
 }
 

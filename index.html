@@ -8,9 +8,20 @@
 	<script type="text/javascript" src="js/masonry.js"></script>
 	<script type="text/javascript" src="js/imagesloaded.js"></script>
 	<script type="text/javascript" src="js/libs.js"></script>
-	<link rel="stylesheet/less" type="text/css" href="css/style.less"> 
+	<link rel="stylesheet/less" type="text/css" href="css/style.less">  
 	<script type="text/javascript" src="js/less.js"></script>
-	
+
+	<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+   <![endif]-->
+
 </head>
 <body id="page">
 	<header id="main_header">
@@ -20,14 +31,25 @@
 				<button class="show">
 					<div class="decor"></div>
 				</button>
+				<a class="info_link" href="#">рекламодателям</a>
+				<a class="info_link" href="#">соглашение</a>
+				<div class="social_link-panel">
+					<a href="#" class="social_link vk"></a>
+					<a href="#" class="social_link fb"></a>
+					<a href="#" class="social_link ok"></a>
+					<a href="#" class="social_link inst"></a>
+					<a href="#" class="social_link tw"></a>
+					<a href="#" class="social_link pint"></a>
+				</div>
 			</div>
 			<div class="city">
-				<div class="city-select">петропавловск-камчатский</div>
-<!-- 				<select class="city-select">
-					<option value="петропавловск-камчатский">петропавловск-камчатский</option>
-					<option value="санкт-петербург">санкт-петербург</option>
-					<option value="москва">москва</option>
-				</select> -->
+				<div class="city-select">
+					<select class="chosen-select-no-single">
+						<option value="петропавловск-камчатский">петропавловск-камчатский</option>
+						<option value="санкт-петербург">санкт-петербург</option>
+						<option value="москва">москва</option>
+					</select>
+				</div>
 			</div>
 			<button id="register">присоединиться</button>
 			<div class="user">
@@ -36,19 +58,19 @@
 			</div>
 			<nav id="user-control_panel">
 				<ul>
-					<li class="item messages"><a href="#"><i class="icon"></i><span class="count">3560</span></a></li>
-					<li class="item comments"><a href="#"><i class="icon"></i><span class="count">30</span></a></li>
-					<li class="item badges"><a href="#"><i class="icon"></i><span class="count">3</span></a></li>
-					<li class="item settings"><a href="#"><i class="icon"></i></a></li>
+					<li class="item"><a href="#" class="messages"><i class="icon"></i><span class="count">3560</span></a></li>
+					<li class="item"><a href="#" class="comments"><i class="icon"></i><span class="count">30</span></a></li>
+					<li class="item"><a href="#" class="badges"><i class="icon"></i><span class="count">3</span></a></li>
+					<li class="item"><a href="#" class="settings"><i class="icon"></i></a></li>
 				</ul>
 			</nav>
 		</div>
 		<nav class="header-main_menu">
 			<ul>
-				<li class="item main"><a class="main-page" href="#">Главная</a>
-					<ul class="dropdown-filters">	
+				<li class="item main"><a class="main-page" href="#">Главное</a>
+					<ul id="dropdown-filters">	
 						<li class="filter"><a href="#" class="filter-item">Все</a></li>
-						<li class="filter"><a href="#" class="filter-item">Девушки</a></li>
+						<li class="filter  active"><a href="#" class="filter-item active">Девушки</a></li>
 						<li class="filter"><a href="#" class="filter-item">Парни</a></li>
 					</ul>
 				</li>
