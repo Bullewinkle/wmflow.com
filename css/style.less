@@ -24,10 +24,43 @@
 		clear: both;
 	}
 }
+button.action {
+	padding: 10px 20px;
+	border-radius: 16px;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+button.action.red {
+	background: #f33;
 
-// a:hover {
-// 	color: @red;
-// }
+	&:hover {
+		background: #d70000;
+	}
+	&:active {
+		color: #eb8080;
+	}
+}
+button.action.orange {
+	background: #ff9900;
+
+	&:hover {
+		background: #c37300;
+	}
+	&:active {
+		color: #d6a052;
+	}
+}
+button.action.green {
+	background: #669900;
+
+	&:hover {
+		background: #4b6900;
+	}
+	&:active {
+		color: #a5b480;
+	}
+}
 
 body#page {
 	font-family: arial;
@@ -223,7 +256,6 @@ body#page {
 
 					.name, .family {
 						display: block;
-						float: left;
 						text-decoration: underline;
 					}
 					.name {
@@ -238,6 +270,11 @@ body#page {
 				padding-top: 15px;
 				text-align: right;
 				padding-right: 20px;
+
+				&.collapsed {
+					display: none;
+				}
+
 				.item {
 					float: left;
 					a {
@@ -404,7 +441,10 @@ body#page {
 				float: left;
 				line-height: 0;
 
-				.photo-preview {}
+				.photo-preview {
+					width: 100%;
+					height: auto;
+				}
 				.info {
 					background: #e6e6e6;
 					padding: 18px 15px 15px;
@@ -455,11 +495,57 @@ body#page {
 
 @media (max-width: 320px) {}
 @media (max-width: 768px) {
-
+	#main_content {
+		#container {
+			.block {
+				width: 160px;
+			}
+		}
+	}
 }
 @media (max-width: 1024px) {
+	body#page header#main_header nav.header-main_menu ul .item.main {
+		position: static;
+	#dropdown-filters {
+		padding: 0 10px;
+		position: absolute;
+		display: block;
+		top: 29px;
+		background: #f33;
+	}
 }
-@media (max-width: 1366px) {}
+
+	body#page header#main_header .header-top #user-control_panel {
+		display: none;
+	}
+	body#page header#main_header .header-top #user-control_panel.collapsed {
+		display: block;
+		text-align: left;
+		position: absolute;
+		top: 50px;
+		width: 193px;
+		right: 0;
+		z-index: 200;
+		padding: 0 0 12px 15px;
+		background: rgba(255,255,255,0.96);
+		.item {
+			float: none;
+			height: 25px;
+			text-transform: uppercase;
+			a {
+				.icon {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1366px) {
+
+	.name, .family {
+		float: left;
+	}
+}
 @media (max-width: 1920px) {}
 
 
