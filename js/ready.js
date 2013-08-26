@@ -24,7 +24,7 @@ $(".chosen-select-no-single").chosen({disable_search_threshold: 10});
 // ---------------------------------- LOGO
 
 var logo = $('#logo')
-var show = $('#logo .show');
+var show = $('#logo .show-logo');
 show.on('click', function (){
 	if(!logo.hasClass('visible')){
 		$(this).parent().addClass('visible');
@@ -72,4 +72,30 @@ select.on('click',function(){
 });
 
 });
+
+//------------------------------------ SHOW BUTTONS
+var showControlPanel = $('button.show.user-control_panel');
+var controlPanel = $('.user-control_list');
+var showFilter = $('button.show.filters');
+var filters = $('#dropdown-filters');
+
+
+showFilter.on('click',function(){
+	if(!filters.hasClass('visible')){
+		filters.addClass('visible');
+	} else {
+		filters.removeClass('visible');
+	};
+});
+showControlPanel.on('click',function(){
+	if(!controlPanel.hasClass('visible')){
+		controlPanel.addClass('visible');
+	} else {
+		controlPanel.removeClass('visible');
+	};
+});
+
+
+
+
 
