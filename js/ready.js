@@ -1,8 +1,8 @@
 
 $(document).ready(function() {
 
-var userName = $('.user .user-name .name');
-userName.html(userName.html() + '&nbsp;');
+	var userName = $('.user .user-name .name');
+	userName.html(userName.html() + '&nbsp;');
 
 // -------------------------------- MASONRY
 
@@ -24,12 +24,14 @@ $(".chosen-select-no-single").chosen({disable_search_threshold: 10});
 // ---------------------------------- LOGO
 
 var logo = $('#logo')
-var show = $('#logo .show-logo');
-show.on('click', function (){
+var showLogo = $('.show.logo');
+showLogo.on('click', function (){
 	if(!logo.hasClass('visible')){
-		$(this).parent().addClass('visible');
+		logo.addClass('visible');
+		showLogo.addClass('opened');
 	} else {
-		$(this).parent().removeClass('visible');
+		logo.removeClass('visible');
+		showLogo.removeClass('opened');
 	}
 });
 
@@ -57,7 +59,9 @@ $(window).scroll(function () {
 		userInfo.appendTo(nav);
 	} else {
 		nav.removeClass("fixed");
-		userInfo.appendTo(headerTop);
+		if ($(window).width() > 767) {	
+			userInfo.appendTo(headerTop);
+		};
 	}
 });
 // -------------------------------- CITY SELECT
@@ -71,20 +75,23 @@ select.on('click',function(){
 	}; 
 });
 
-});
-
 //------------------------------------ SHOW BUTTONS
 var showControlPanel = $('button.show.user-control_panel');
 var controlPanel = $('.user-control_list');
 var showFilter = $('button.show.filters');
 var filters = $('#dropdown-filters');
+var mainFilter = $('.main-page');
+console.log(mainFilter);
 
-
-showFilter.on('click',function(){
+mainFilter.on('click',function(){
 	if(!filters.hasClass('visible')){
 		filters.addClass('visible');
+		mainFilter.addClass('opened');
+		showFilter.addClass('opened');
 	} else {
 		filters.removeClass('visible');
+		mainFilter.removeClass('opened');
+		showFilter.removeClass('opened');
 	};
 });
 showControlPanel.on('click',function(){
@@ -95,7 +102,47 @@ showControlPanel.on('click',function(){
 	};
 });
 
+//------------------------------------------MOBILE VERSION
+var menu = $('.header-main_menu #menu');
+var menuItems = $('nav.header-main_menu .item.menu_item');
+var city = $('#city');
+var header = $('#main_header .header-top');
+var search = $('.item-search');
+var logoRed = $('#logo .red');
+
+$(window).load(function(event) {
+	if ($(window).width() < 767) {
+		menuItems.prependTo(logoRed);
+		city.prependTo(logoRed);
+		showLogo.prependTo(nav);
+		userInfo.appendTo(nav);
+		search.appendTo(logo);
+	} else{
+		menuItems.appendTo(menu);
+		city.prependTo(header);
+		showLogo.appendTo(logo);
+		userInfo.appendTo(headerTop);
+		search.appendTo(menu);
+	};
+});
+
+$(window).resize(function(event) {
+	if ($(window).width() < 767) {
+		menuItems.prependTo(logoRed);
+		city.prependTo(logoRed);
+		showLogo.prependTo(nav);
+		userInfo.appendTo(nav);
+		search.appendTo(logo);
+	} else{
+		menuItems.appendTo(menu);
+		city.prependTo(header);
+		showLogo.appendTo(logo);
+		userInfo.appendTo(headerTop);
+		search.appendTo(menu);
+	};
+});
 
 
+});
 
 

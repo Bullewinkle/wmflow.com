@@ -3,6 +3,7 @@
 <head>
 	<title>Untitled project</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/masonry.js"></script>
@@ -28,9 +29,10 @@
 		<div class="header-top">
 			<div id="logo">
 				<a href="#" class="logo"></a>
-				<button class="show">
+				<button class="show logo">
 					<div class="decor"></div>
 				</button>
+				<div class="red"></div>
 				<a class="info_link" href="#">рекламодателям</a>
 				<a class="info_link" href="#">соглашение</a>
 				<div class="social_link-panel">
@@ -42,7 +44,7 @@
 					<a href="#" class="social_link pint"></a>
 				</div>
 			</div>
-			<div class="city">
+			<div id="city">
 				<div class="city-select">
 					<select class="chosen-select-no-single">
 						<option value="петропавловск-камчатский">петропавловск-камчатский</option>
@@ -74,164 +76,168 @@
 			</nav>
 		</div>
 		<nav class="header-main_menu">
-			<ul>
-				<li class="item main"><a class="main-page" href="#">Главное <button class="show filters"></button></a>
+			<ul id="menu">
+				<li class="item-main"><a class="main-page" href="#">Главное <button class="show filters"></button></a>
 					<ul id="dropdown-filters">	
 						<li class="filter"><a href="#" class="filter-item">Все</a></li>
 						<li class="filter  active"><a href="#" class="filter-item active">Девушки</a></li>
 						<li class="filter"><a href="#" class="filter-item">Парни</a></li>
 					</ul>
 				</li>
-				<li class="item"><a href="#">магазины</a></li>
-				<li class="item"><a href="#">фотографы</a></li>
-				<li class="item"><a href="#">салоны красоты</a></li>
-				<li class="item"><a href="#">статьи</a></li>
-				<li class="item"><a href="#">призы и подарки</a></li>
-				<li class="item search"><a href="#"></a></li>
+				<li class="item menu_item"><a href="#">магазины</a></li>
+				<li class="item menu_item"><a href="#">фотографы</a></li>
+				<li class="item menu_item"><a href="#">салоны красоты</a></li>
+				<li class="item menu_item"><a href="#">статьи</a></li>
+				<li class="item menu_item"><a href="#">призы и подарки</a></li>
+				<li class="item-search"><a href="#"></a></li>
 			</ul>
 		</nav>
 	</header>
+
+
 	<div id="main_content">
 		<div id="container">
 			<div class="block">
-				<img src="img/photo_small_red.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_red.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
+					<i class="like-icon"></i>
+					<span class="like-count">3263</span>
+					<button class="like-add"></button>
+				</div>
+			</div>
+			<div class="block photo">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
+				<div class="nature"><i class="icon"></i>фотограф</div>
+				<div class="info">
+					<a href="#" class="block-title">дмитрий шентяпин</a>
+					<div class="cost">от 800 в час</div>
+					<div class="description">свадебная съемка, лавстори, студийная, съемка</div>
+				</div>
+			</div>
+			<div class="block article">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
+				<div class="nature"><i class="icon"></i><span class="level-one">статья</span> <span class="level-two">технологии</span></div>
+				<div class="info">
+					<a href="#" class="block-title">вышел трейлер нового сай-фая спайка джонза</a> 
+					<span class="likes">200</span><span class="views">620</span>
+					<div class="description">#кино  #джонз  #статья</div>
+				</div>
+			</div>
+			<div class="block beauty_shop">
+				<a href="#"><img src="img/photo_small_red.png" alt="" class="photo-preview"></a>
+				<div class="nature"><i class="icon"></i>салон красоты</div>
+				<div class="info">
+					<a href="#" class="block-title">headbusters</a>
+					<div class="motto">причесывайтесь с любовью</div>
+					<div class="description">ул. Красноармейская, 42, Брянск, Россия </div>
+					<button class="action orange">получить скидку</button>
+				</div>
+			</div>
+			<div class="block shop">
+				<a href="#"><img src="img/photo_small_white.png" alt="" class="photo-preview"></a>
+				<div class="nature"><i class="icon"></i>магазин</div>
+				<div class="info">
+					<a href="#" class="block-title">zara</a>
+					<div class="description">женская одежда из Италии и Франции </div>
+					<button class="action red">получить скидку</button>
+				</div>
+			</div>
+			<div class="block recomended">
+				<a href="#"><img src="img/photo_small_red.png" alt="" class="photo-preview"></a>
+				<div class="nature"><i class="icon"></i>рекомендуем</div>
+				<div class="info">
+					<a href="#" class="block-title">сандалии basic</a>
+					<a href="#" class="manufacturer">zara</a>
+					<div class="price">2 320 р</div>
+					<button class="action red">купить</button>
+				</div>
+			</div>
+			<div class="block">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
+				<div class="info">
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_white.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_red.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_red.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_white.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_white.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_red.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_red.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_white.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_white.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_red.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_black.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>
 				</div>
 			</div>
 			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
+				<a href="#"><img src="img/photo_small_white.png" alt="" class="photo-preview"></a>
 				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_white.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_red.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_white.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_black.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
-					<i class="like-icon"></i>
-					<span class="like-count">3263</span>
-					<button class="like-add"></button>
-				</div>
-			</div>
-			<div class="block">
-				<img src="img/photo_small_white.png" alt="" class="photo-preview">
-				<div class="info">
-					<div class="block-title">kirsten price</div>
+					<a href="#" class="block-title">kirsten price</a>
 					<i class="like-icon"></i>
 					<span class="like-count">3263</span>
 					<button class="like-add"></button>

@@ -5,7 +5,7 @@
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  width: 225px !important;
+  width: 100% !important;
   zoom: 1;
   *display: inline;
   -webkit-user-select: none;
@@ -73,7 +73,7 @@
 .chosen-container-single .chosen-single div {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 14px;
   display: block;
   width: 18px;
   height: 100%;
@@ -89,6 +89,15 @@
 .city-select:hover .chosen-container-single .chosen-single div b, .city-select.opened .chosen-container-single .chosen-single div b {
   background-position: -246px -100px;
 }
+@media (max-width: 767px) {
+  .chosen-container-single .chosen-single div b {
+    background-position: -246px -116px;
+  }
+  .city-select:hover .chosen-container-single .chosen-single div b {
+    background-position:  -246px -108px;
+  }
+}
+
 .chosen-container-single .chosen-search {
   display: none;
   position: relative;
