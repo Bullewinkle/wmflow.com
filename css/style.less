@@ -914,6 +914,22 @@ body#page {
 					}
 				}
 				&.recomended {
+					.block-title {
+						i {
+							color: #333;
+						}
+					}
+					.highlighted {
+						position: relative;
+						display: block;
+						&:before {
+							content: '';
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							.box-shadow (0 0 0 5px @red inset);
+						}
+					}
 					.nature {
 						background: @red;	
 						.icon {
