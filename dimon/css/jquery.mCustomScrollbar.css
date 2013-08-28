@@ -152,10 +152,10 @@
 	height: 30px;
 	width: 5px;
 	background: #e6e6e6;
-	opacity: 0.0;
+	display: none;
 }
 .mCSB_dragger_bar.visible {
-	opacity: 1;
+	display: block;;
 }
 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
 	background:rgba(255,255,255,0.85);

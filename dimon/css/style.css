@@ -1,3 +1,10 @@
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block!important;
+}
 .hover:hover {
   color: #ff3333;
 }
@@ -13,7 +20,6 @@
   clear: both;
 }
 .register_mobile {
-  height: 50px;
   background: #669900;
   padding: 10px 20px;
 }
@@ -69,7 +75,7 @@ button.action.green:active {
 }
 button.show {
   position: absolute;
-  background: url('http://wmflow/css/sprite.png') no-repeat -246px -116px;
+  background: url('sprite.png') no-repeat -246px -116px;
   width: 10px;
   height: 6px;
   border: none;
@@ -135,6 +141,12 @@ button.show.user-control_panel {
   background-position: -246px -108px;
   top: -28px;
   right: 22px;
+}
+button.show.user-control_panel:hover {
+  background-position: -246px -100px;
+}
+button.show.user-control_panel.opened {
+  background-position: -246px -82px;
 }
 html {
   height: 100%;
@@ -222,7 +234,11 @@ body#page header#main_header .header-top #logo.visible {
 }
 @media (max-width: 767px) {
   body#page header#main_header .header-top #logo.visible {
-    opacity: 0.9;
+  opacity: 0.9;
+  }
+  body#page header#main_header .header-top #logo.visible.fixed {
+    position: fixed;
+    top: -26px;
   }
 }
 body#page header#main_header .header-top #logo.visible .show .decor {
@@ -267,7 +283,7 @@ body#page header#main_header .header-top #logo .item-search {
   position: absolute;
   top: 12px;
   right: 0;
-  background: url('http://wmflow/css/sprite.png') no-repeat -281px -91px;
+  background: url('sprite.png') no-repeat -281px -91px;
   width: 16px;
   height: 16px;
   margin: 6px 20px 0 0;
@@ -279,7 +295,7 @@ body#page header#main_header .header-top #logo a.logo {
   position: absolute;
   display: block;
   float: left;
-  background: url('http://wmflow/css/sprite.png') no-repeat 0 -161px;
+  background: url('sprite.png') no-repeat 0 -161px;
   width: 200px;
   height: 30px;
   top: 10px;
@@ -312,7 +328,7 @@ body#page header#main_header .header-top #logo .social_link-panel .social_link {
   display: block;
   width: 30px;
   height: 30px;
-  background: url('http://wmflow/css/sprite.png') no-repeat;
+  background: url('sprite.png') no-repeat;
   margin-right: 5px;
   float: left;
 }
@@ -403,14 +419,26 @@ body#page header#main_header .header-top #register.hidden {
   body#page header#main_header .header-top #register {
     width: 100%;
     margin-top: 10px 0 10px ;
+    display: none;
   }
 }
 body#page header#main_header .header-top .user {
+  display: none;
   padding-top: 10px;
   float: left;
   position: relative;
   width: 20%;
   *zoom: 1;
+}
+body#page header#main_header .header-top .user.visible {
+  display: block;
+}
+@media (max-width: 1022px) {
+  body#page header#main_header .header-top .user {
+  float: right;
+  padding-right: 226px;
+  width: auto;
+  }
 }
 body#page header#main_header .header-top .user:before,
 body#page header#main_header .header-top .user:after {
@@ -459,28 +487,27 @@ body#page header#main_header .header-top #user-control_panel {
   padding-top: 15px;
   text-align: right;
   padding-right: 20px;
-  display: none;
+  /*display: none;*/
 }
 body#page header#main_header .header-top #user-control_panel.visible {
-  display: block;
+  display: block !important;
 }
 @media (max-width: 1022px) {
   body#page header#main_header .header-top #user-control_panel {
-    display: none;
+    /*display: none;*/
   }
 }
 body#page header#main_header .header-top #user-control_panel ul {
   padding-bottom: 12px;
 }
 body#page header#main_header .header-top #user-control_panel ul.user-control_list {
-  display: none;
+  /*display: none;*/
 }
 body#page header#main_header .header-top #user-control_panel.collapsed {
   display: none;
 }
 @media (max-width: 1022px) {
   body#page header#main_header .header-top #user-control_panel.collapsed {
-    display: block;
     text-align: left;
     position: absolute;
     top: 50px;
@@ -490,6 +517,14 @@ body#page header#main_header .header-top #user-control_panel.collapsed {
     padding: 0 0 0 15px;
     background: rgba(255, 255, 255, 0.96);
   }
+  body#page header#main_header .header-top #user-control_panel .item a.settings {
+    position: relative;
+  }
+  body#page header#main_header .header-top #user-control_panel .item a.settings:after {
+  content: 'Настройки';
+  position: absolute;
+  left: 26px;
+}
   body#page header#main_header .header-top #user-control_panel.collapsed ul.visible {
     display: block;
   }
@@ -504,7 +539,7 @@ body#page header#main_header .header-top #user-control_panel.collapsed {
 }
 @media (max-width: 767px) {
   body#page header#main_header .header-top #user-control_panel.collapsed {
-    display: none;
+    display: none !important;
   }
 }
 body#page header#main_header .header-top #user-control_panel .item {
@@ -549,7 +584,7 @@ body#page header#main_header .header-top #user-control_panel .item .icon {
   float: left;
   width: 16px;
   height: 20px;
-  background: url('http://wmflow/css/sprite.png') no-repeat;
+  background: url('sprite.png') no-repeat;
 }
 body#page header#main_header .header-top #user-control_panel .item .count {
   margin-left: 5px;
@@ -665,6 +700,10 @@ body#page header#main_header nav.header-main_menu ul .item-main #dropdown-filter
     display: none;
     top: 29px;
     background: #f33;
+    opacity: 0.9;
+    -webkit-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5) inset;
+    -moz-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5) inset;
   }
   body#page header#main_header nav.header-main_menu ul .item-main #dropdown-filters.visible {
     display: block;
@@ -688,10 +727,11 @@ body#page header#main_header nav.header-main_menu ul .item-main #dropdown-filter
 body#page header#main_header nav.header-main_menu ul .item-main #dropdown-filters .filter a.filter-item.active {
   background: #fff;
   color: #ff3333;
+  font-weight: bold;
 }
 body#page header#main_header nav.header-main_menu ul .item-search {
   float: right;
-  background: url('http://wmflow/css/sprite.png') no-repeat -278px -69px;
+  background: url('sprite.png') no-repeat -278px -69px;
   width: 16px;
   height: 16px;
   margin: 6px 20px 0 0;
@@ -719,6 +759,7 @@ body#page header#main_header nav.header-main_menu.fixed {
   z-index: 500;
 }
 body#page header#main_header nav.header-main_menu .user {
+  display: none;
   position: absolute;
   right: 0;
   top: 0;
@@ -826,7 +867,7 @@ body#page #main_content #container .block .info .block-title:hover {
 body#page #main_content #container .block .info .like-icon {
   display: block;
   float: left;
-  background: url('http://wmflow/css/sprite.png') no-repeat -204px -91px;
+  background: url('sprite.png') no-repeat -204px -91px;
   width: 30px;
   height: 30px;
 }
@@ -846,7 +887,7 @@ body#page #main_content #container .block .info .like-count {
 body#page #main_content #container .block .info .like-add {
   border: none;
   float: right;
-  background: url('http://wmflow/css/sprite.png') no-repeat 0 0;
+  background: url('sprite.png') no-repeat 0 0;
   width: 30px;
   height: 30px;
 }
@@ -894,7 +935,7 @@ body#page #main_content #container .block .info .cost:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('http://wmflow/css/sprite.png') no-repeat -159px -147px;
+  background: url('sprite.png') no-repeat -159px -147px;
   width: 12px;
   height: 12px;
 }
@@ -919,7 +960,7 @@ body#page #main_content #container .block .info span.views:before {
   position: absolute;
   top: 2px;
   left: 0;
-  background: url('http://wmflow/css/sprite.png') no-repeat -37px -138px;
+  background: url('sprite.png') no-repeat -37px -138px;
   width: 11px;
   height: 8px;
 }
@@ -982,7 +1023,7 @@ body#page #main_content #container .block.recomended .nature .icon {
   left: 10px;
   width: 17px;
   height: 17px;
-  background: url('http://wmflow/css/sprite.png') no-repeat;
+  background: url('sprite.png') no-repeat;
   display: block;
 }
 body#page #main_content #container .block.photo .info a:hover {
@@ -1050,19 +1091,19 @@ body#page #main_content #container .block.recomended .nature .icon {
   background-position: -176px -144px;
 }
 @media (max-width: 320px) {
-  
+
 }
 @media (max-width: 767px) {
-  
+
 }
 @media (max-width: 1022px) {
-  
+
 }
 @media (min-width: 1366px) {
-  
+
 }
 @media (max-width: 1920px) {
-  
+
 }
 
 /*--------------------------------------*/
@@ -1448,6 +1489,5 @@ body#page #main_content #container .block.recomended .nature .icon {
 /*custom scrollbar*/
 
 /*end*/
-
-
+.chosen-results li.hidden {display: none !important;}
 
