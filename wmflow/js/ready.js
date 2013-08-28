@@ -164,14 +164,14 @@ $(window).resize(function(event) {
 
 
 // ------------------------REGISTER
-// var regBtn = $('#register');
-// var userPanel = $('#user-control_panel');
-// console.log(userPanel);
+var regBtn = $('#register');
+var userPanel = $('#user-control_panel');
+console.log(userPanel);
 
-// regBtn.on('click', function(){
-// 	$(this).addClass('hidden');
-// 	userPanel.addClass('visible collapsed');
-// })
+regBtn.on('click', function(){
+	$(this).addClass('hidden');
+	userPanel.addClass('visible collapsed');
+})
 
 });
 

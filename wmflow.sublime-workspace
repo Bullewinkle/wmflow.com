@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"12px",
+				"12px"
+			],
+			[
+				"appen",
+				"appendTo	.appendTo()"
+			],
+			[
+				"wi",
+				"width	.width"
+			],
+			[
+				"appe",
+				"appendTo	.appendTo()"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"res",
+				"resize	.resize"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
 				"text",
 				"text-transform"
 			],
@@ -22,10 +74,6 @@
 			[
 				"co",
 				"content"
-			],
-			[
-				"pa",
-				"padding-right"
 			],
 			[
 				"brr",
@@ -92,20 +140,12 @@
 				"line-height"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"rea",
 				"ready	jQuery(document).ready"
 			],
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"marg",
@@ -176,10 +216,6 @@
 				"ready	$(document).ready"
 			],
 			[
-				"ma",
-				"margin"
-			],
-			[
 				"fot",
 				"font-size"
 			],
@@ -230,10 +266,6 @@
 			[
 				"f",
 				"float"
-			],
-			[
-				"wi",
-				"width"
 			],
 			[
 				"bg",
@@ -391,7 +423,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9108,
+				"buffer_size": 48333,
 				"line_ending": "Unix"
 			}
 		},
@@ -399,7 +431,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 10027,
+				"buffer_size": 17517,
 				"line_ending": "Unix"
 			}
 		},
@@ -407,7 +439,7 @@
 			"file": "js/ready.js",
 			"settings":
 			{
-				"buffer_size": 1658,
+				"buffer_size": 3519,
 				"line_ending": "Unix"
 			}
 		},
@@ -415,7 +447,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10025,
+				"buffer_size": 10266,
 				"line_ending": "Unix"
 			}
 		},
@@ -423,7 +455,7 @@
 			"file": "css/normalize.css",
 			"settings":
 			{
-				"buffer_size": 7413,
+				"buffer_size": 8492,
 				"line_ending": "Unix"
 			}
 		},
@@ -544,8 +576,8 @@
 	},
 	"file_history":
 	[
-		"/Users/Bullwinkle/Google Диск/internettraffic/projects/toys_market/доступы.txt",
 		"/Users/Bullwinkle/Google Диск/internettraffic/доступы.txt",
+		"/Users/Bullwinkle/Google Диск/internettraffic/projects/toys_market/доступы.txt",
 		"/Users/Bullwinkle/Desktop/untitled-2.html",
 		"/Users/Bullwinkle/Dropbox/Sites/Sovrteh/version2/js/index.js",
 		"/Users/Bullwinkle/Documents/Sites (local)/chosen_v1.0.0/chosen.jquery.min.js",
@@ -690,6 +722,94 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"recomended",
+			"box-shadow",
+			"recom",
+			".block",
+			"block",
+			"level",
+			"main-page",
+			"like-count",
+			"descrip",
+			"button",
+			"photo-preview",
+			".block",
+			"user-name",
+			".user",
+			"nature",
+			"&.",
+			".block",
+			"block-title",
+			" class=\"photo-preview\">",
+			"<img src=\"img/photo_small_red.png\" alt=\"\" class=\"photo-preview\">",
+			"opened",
+			"&.opened",
+			"main-page",
+			".show.filters",
+			"show.logo",
+			"logo",
+			".block",
+			"block",
+			"@media (max-width: 767px)",
+			"@media (max-width: 769px)",
+			"@media (max-width: 768px)",
+			"container",
+			"like-icon",
+			"container",
+			"logo",
+			".item.menu_item",
+			"info_link",
+			".block",
+			"block",
+			".logo",
+			"#logo",
+			".item-search",
+			".user-name",
+			";\n",
+			"city",
+			"header-main_menu",
+			"$(this).parent()",
+			"user-control_panel",
+			"nav",
+			"main-page",
+			"nav",
+			".show",
+			"show.logo",
+			".show.logo",
+			"logo",
+			"city",
+			"main",
+			"menu_item_link",
+			"show logo",
+			"show.logo",
+			"show logo",
+			"#main_header",
+			"<button class=\"show\">",
+			"main_header",
+			".block",
+			"block",
+			"main-page",
+			"class=\"user-control_list visible\"",
+			"dropdown-filters",
+			".main",
+			"dropdown-filters",
+			"			padding: 0 10px;\n			position: absolute;\n			display: block;\n			top: 29px;\n			background: #f33;",
+			"user-control_list",
+			"user-control_panel",
+			"dropdown-filters",
+			"collapsed",
+			"user-control_panel",
+			".user-name",
+			".name, .family",
+			"user-name",
+			"user-photo",
+			".user",
+			"main-page",
+			"filters",
+			"user-control_panel",
+			"show-filters",
+			"main-page",
+			"Главное",
 			"user-control_panel",
 			"user-name",
 			"user",
@@ -729,95 +849,7 @@
 			"&.",
 			"#f33",
 			"city-select",
-			"chosen-search",
-			"city-select",
-			"</",
-			"info",
-			"city-",
-			"cf",
-			"header-top",
-			"cf",
-			"header-main_menu",
-			"cf",
-			"<div class=\"info_block\">",
-			"<div class=\"item\">\n				<img",
-			"<div class=\"name\" KIRSTEN=\"\" PRICE=\"\"></div>",
-			"side_bar",
-			"sidebar",
-			"side bar",
-			"side",
-			"sidebar",
-			"<span class=\"like-count\"",
-			"<img src=\"img/",
-			"<img src=\"\"",
-			"search",
-			"jes",
-			"ul",
-			"<span class=\"icon\"",
-			"&.",
-			"user-control_panel",
-			"../font/",
-			"arguments",
-			" @y @x @blur @tension @color",
-			" @y,@x,@blur,@tension,@color",
-			"@param",
-			"ul {",
-			"ul",
-			"main-menu",
-			".row",
-			"row",
-			"div",
-			"author_name",
-			"author",
-			"author\nauthor",
-			"author",
-			"<img src=\"files/categories/",
-			"</div></a>",
-			".site-content",
-			".site ",
-			".site",
-			".site ",
-			"{\n",
-			".site ",
-			"{\n",
-			"}\n	.site ",
-			"widget",
-			"wpcf7",
-			"@transition",
-			"'do_",
-			"callback",
-			"social_links",
-			"important",
-			"(",
-			";",
-			",",
-			"box-shadow",
-			"15px",
-			"rgba(0, 0, 0, 0.3)",
-			"rgba(255,255,255,1)",
-			"rgba(255,255,255,0.0)",
-			"/*",
-			"rgba(0,0,0,0.0)",
-			"widget_text",
-			"rgba(0,0,0,1)",
-			"10%",
-			"rgba(0,0,0,1) 10%",
-			"top,",
-			"top",
-			"(top,",
-			".site-content",
-			"wrapper",
-			"site-content",
-			"#000000",
-			"#ffffff",
-			"&.",
-			"contacts",
-			"top:",
-			"menu",
-			"2c688d",
-			"3a81a6",
-			"theme_location",
-			"wp_nav_menu"
+			"chosen-search"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -846,7 +878,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -924,15 +956,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9108,
+						"buffer_size": 48333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2493,
-								2511
+								587,
+								587
 							]
 						],
 						"settings":
@@ -985,7 +1017,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 575.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -995,15 +1027,15 @@
 					"file": "css/style.less",
 					"settings":
 					{
-						"buffer_size": 10027,
+						"buffer_size": 17517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9330,
-								9330
+								16960,
+								16960
 							]
 						],
 						"settings":
@@ -1056,7 +1088,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4625.0,
+						"translation.y": 9849.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1066,15 +1098,15 @@
 					"file": "js/ready.js",
 					"settings":
 					{
-						"buffer_size": 1658,
+						"buffer_size": 3519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1416,
-								1416
+								2050,
+								2050
 							]
 						],
 						"settings":
@@ -1123,10 +1155,11 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 327.0,
+						"translation.y": 986.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1136,15 +1169,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 10025,
+						"buffer_size": 10266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2017,
-								2017
+								2189,
+								2189
 							]
 						],
 						"settings":
@@ -1198,7 +1231,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 976.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1208,15 +1241,15 @@
 					"file": "css/normalize.css",
 					"settings":
 					{
-						"buffer_size": 7413,
+						"buffer_size": 8492,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								355,
-								361
+								686,
+								686
 							]
 						],
 						"settings":
@@ -1270,7 +1303,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 226.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1342,7 +1375,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5290.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1417,7 +1450,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 318.0,
 	"status_bar_visible": true
 }
